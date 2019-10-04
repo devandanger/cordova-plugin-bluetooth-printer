@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-bluetooth-printer" version="0.9.2" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>bluetooth-printer</name>
+    <js-module name="bluetooth-printer" src="www/bluetooth-printer.js">
+        <clobbers target="cordova.plugins.bluetooth-printer" />
+    </js-module>
+    <platform name="android">
+        <js-module name="BluetoothPrinter.java" src="www/bluetooth-printer.js">
+			<clobbers target="BluetoothPrinter" />
+		</js-module>
+        <source-file src="src/android/BluetoothPrinterPlugin.java" target-dir="src/org/apache/cordova/bluetoothprinter" />
+        <framework src="src/android/plugin.gradle" custom="true" type="gradleReference" />
+    </platform>
+</plugin>

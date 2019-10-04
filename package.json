@@ -1,0 +1,44 @@
+{
+  "name": "cordova-plugin-bluetooth-printer",
+  "version": "0.9.2",
+  "description": "Prints HTML documents",
+  "cordova": {
+    "id": "cordova-plugin-bluetooth-printer",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devandanger/cordova-plugin-bluetooth-printer.git"
+  },
+  "keywords": [
+    "devandanger",
+    "printer",
+    "cordova",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    },
+    {
+      "name": "android-sdk",
+      "version": ">=19"
+    },
+    {
+      "name": "apple-ios",
+      "version": ">=8.0"
+    }
+  ],
+  "author": "Evan Anger",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/devandanger/cordova-plugin-bluetooth-printer"
+  },
+  "homepage": "https://github.com/devandanger/cordova-plugin-bluetooth-printer#readme",
+  "dependencies": {}
+}

@@ -1,0 +1,7 @@
+repositories {
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    implementation 'com.github.mazenrashed:Printooth:1.2.1'
+}
