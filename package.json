@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-bluetooth-printer",
-  "version": "0.9.2",
+  "version": "0.9.3",
   "description": "Prints HTML documents",
   "cordova": {
     "id": "cordova-plugin-bluetooth-printer",

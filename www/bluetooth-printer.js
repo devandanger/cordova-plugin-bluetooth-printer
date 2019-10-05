@@ -1,5 +1,10 @@
 var exec = require('cordova/exec');
 
-exports.listPrinters = function (success, error) {
-    exec(success, error, "BluetoothPrinterPlugin", "listPrinters", []);
-  };
+var PLUGIN_NAME = 'BluetoothPrinterPlugin';
+var BluetoothPrinterPlugin = {
+  listPrinters: (success, error) => {
+    exec(success, error, PLUGIN_NAME, "listPrinters", []);
+  }
+}
+
+module.exports = BluetoothPrinterPlugin
